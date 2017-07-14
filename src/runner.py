@@ -5,12 +5,12 @@ from random import randint
 
 #########################################
 ## START of part that students may change
-from code_completion_baseline import Code_Completion_Baseline
+from code_completion_2836366 import Code_Completion_Baseline
 
-training_dir = "./../../programs_800/"
-query_dir = "./../../programs_200/"
+training_dir = "./../training_data/programs_800/"
+query_dir = "./../training_data/programs_200/"
 
-model_file = "./../../trained_model"
+model_file = "./../training_data/trained_model"
 use_stored_model = False
 
 max_hole_size = 2
