@@ -1,0 +1,911 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"excl",
+				"excludedChunks"
+			],
+			[
+				"ex",
+				"extract"
+			],
+			[
+				"extra",
+				"extractSvg"
+			],
+			[
+				"test",
+				"testImport"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"translate",
+				"translateY()"
+			],
+			[
+				"event",
+				"event_query"
+			],
+			[
+				"var_",
+				"var_export"
+			],
+			[
+				"query",
+				"query_args"
+			],
+			[
+				"naju",
+				"naju_widgets_init"
+			],
+			[
+				"regis",
+				"register_NAJU_EventsWidget"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"Compile",
+				"compileClient"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"remo",
+				"removeClass"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"fle",
+				"flex-wrap"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"e",
+				"even"
+			],
+			[
+				"anima",
+				"animation-duration"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"wid",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/code_completion_baseline.py",
+			"settings":
+			{
+				"buffer_size": 2919,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "LICENSE",
+			"settings":
+			{
+				"buffer_size": 1070,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/runner.py",
+			"settings":
+			{
+				"buffer_size": 2851,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "disa",
+		"selected_items":
+		[
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"lay",
+				"Layout: Single"
+			],
+			[
+				"vir new",
+				"Virtualenv: New"
+			],
+			[
+				"layou",
+				"Layout: 2 Rows"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"vir",
+				"Virtualenv: New"
+			],
+			[
+				"virtuale",
+				"Virtualenv: Activate"
+			],
+			[
+				"virtual",
+				"Virtualenv: Remove"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"material",
+				"Material Theme: Configuration"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"diable",
+				"Package Control: Disable Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"minima",
+				"View: Toggle Minimap"
+			],
+			[
+				"opeon ",
+				"Project: Open Project…"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"add fol",
+				"Project: Add Folder"
+			],
+			[
+				"eslint ",
+				"ESLint Formatter: Format this file"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indet",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"settin",
+				"Preferences: Settings"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"fomat",
+				"Format: Javascript"
+			],
+			[
+				"mark",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"emmet",
+				"Emmet: Balance (inward)"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"br",
+				"Preferences: Browse Packages"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"mpr",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"markp",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"marp",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mar pre",
+				"Markdown Preview: Preview in Browser"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 206.0,
+		"history":
+		[
+			"gprolog",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/lookme/Entwicklung/ai/ASDL2017",
+		"/Users/lookme/Entwicklung/ai/ASDL2017/src"
+	],
+	"file_history":
+	[
+		"/Users/lookme/Entwicklung/ai/ASDL2017/setup.sh",
+		"/Users/lookme/Library/Application Support/Sublime Text 3/Packages/Virtualenv/Virtualenv.sublime-settings",
+		"/Users/lookme/Library/Application Support/Sublime Text 3/Packages/User/Virtualenv.sublime-settings",
+		"/Users/lookme/Entwicklung/ai/ASDL2017/README.md",
+		"/Users/lookme/Desktop/commands.txt",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.rudi/client/src/rudi/import.js",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.rudi/client/src/import.js",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.rudi/client/src/index.html",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.rudi/client/webpack.config.js",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.rudi/client/dist/devpath.bundle.js.map",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.rudi/client/src/devpath.js",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.rudi/client/package.json",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.rudi/client/src/split.js",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.rudi/client/src/app.jsx",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.rudi/client/dist/index.html",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.rudi/client/dist/bundle.js",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.rudi/client/.babelrc",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.rudi/client/src/app.scss",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.rudi/client/.flowconfig",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.rudi/client/dist/0.bundle.js",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.rudi/server/rudi/__init__.py",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.rudi/server/rudi/routes/index_and_login.py",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.rudi/server/rudi/bottle.py",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.rudi/docker-compose.yaml",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.rudi/server/rudi/manager.py",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.rudi/server/rudi/routes/addressbook.py",
+		"/Users/lookme/Entwicklung/ai/tfsource/tools/python_bin_path.sh",
+		"/private/var/tmp/_bazel_lookme/e41df28bbb1caa5119cd1d1624c09ca7/execroot/tfsource/bazel-out/local-opt/bin/tensorflow/tools/pip_package/build_pip_package",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.rudi/doc/Structure.svg",
+		"/Users/lookme/Desktop/diff.diff",
+		"/Users/lookme/Entwicklung/mail/NAJU_Newsletter/dist/anmeldung.html",
+		"/Users/lookme/Entwicklung/mail/NAJU_Newsletter/src/assets/scss/template/_newsletter.scss",
+		"/Users/lookme/Entwicklung/mail/NAJU_Newsletter/src/pages/index.html",
+		"/Users/lookme/Entwicklung/mail/NAJU_Newsletter/src/pages/anmeldung.html",
+		"/Users/lookme/Entwicklung/mail/NAJU_Newsletter/src/pages/newsletter.html",
+		"/Users/lookme/Desktop/Newsletter.html",
+		"/Users/lookme/Downloads/Newsletter (1).html",
+		"/Users/lookme/Downloads/Newsletter.html",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.www/sydney-naju/content-event.php",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.www/sydney-naju/functions.php",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.www/wp-config.php",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.www/sydney-naju/widgets/naju-event-loop.php",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.www/sydney-naju/style.css",
+		"/Users/lookme/Downloads/berkshire_letters/1980.html",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.www/AGBB.md",
+		"/Users/lookme/Desktop/telegram.min.svg",
+		"/Users/lookme/Desktop/social.svg",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.www/sydney-naju/fp-latest-news.php",
+		"/Users/lookme/Entwicklung/web/de.naju-hessen.www/sydney-naju/sydney-functions.php",
+		"/Users/lookme/Desktop/xmas/sprites/sheets/test1.tmx",
+		"/Users/lookme/Desktop/xmas/sprites/sheets/spritesheet.json",
+		"/Users/lookme/Desktop/xmas/sheets/test1.json",
+		"/Users/lookme/Desktop/xmas/sheets/test1.tmx",
+		"/Users/lookme/Desktop/xmas/sprites/sheets/world_tileset.tps",
+		"/Users/lookme/Entwicklung/web/xyz.am1s/server/src/database/couchHelpers.ts",
+		"/Users/lookme/Entwicklung/web/xyz.am1s/server/src/database/couch.ts",
+		"/Users/lookme/Entwicklung/web/earth.menzel.xmas/.idea/workspace.xml",
+		"/Users/lookme/Entwicklung/web/earth.menzel.xmas.old/package.json",
+		"/Users/lookme/Desktop/dumps/Dump20161222.sql",
+		"/Users/lookme/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Themes.localized/Theme Fonts/MC Documents.xml",
+		"/Users/lookme/Movies/Downloads/videos.txt",
+		"/Users/lookme/Desktop/Kanban/words.txt",
+		"/Users/lookme/Desktop/words.txt",
+		"/Users/lookme/Desktop/Kanban.mdown",
+		"/Users/lookme/Desktop/Kanban/index_split_013.html",
+		"/Users/lookme/Desktop/Kanban/index_split_014.html",
+		"/Users/lookme/Desktop/Kanban/index_split_015.html",
+		"/Users/lookme/Desktop/Kanban_ Successful Evolutionary Change for - Anderson, David J_/index_split_000.html",
+		"/Users/lookme/Desktop/pseudocode.txt",
+		"/Users/lookme/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Themes.localized/Theme Fonts/MC.xml",
+		"/Users/lookme/Entwicklung/web/xyz.am1s/server/src/server.ts",
+		"/Users/lookme/Entwicklung/web/xyz.am1s/server/src/configuration.ts",
+		"/Users/lookme/Desktop/endnote_license.dat",
+		"/Users/lookme/Downloads/EndNoteX77/endnote_license.dat",
+		"/Users/lookme/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Themes.localized/Theme Colors/NAJU CD.xml",
+		"/Users/lookme/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Themes.localized/Theme Fonts/NAJU Documents.xml",
+		"/Users/lookme/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Themes.localized/NAJU Documents.thmx",
+		"/Users/lookme/Desktop/Gesellschaftsvertrag.diff",
+		"/Users/lookme/Movies/Downloads/blah.txt",
+		"/Users/lookme/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Themes.localized/Theme Fonts/NAJU.xml",
+		"/Users/lookme/Desktop/GesellschaftsvertragOld.txt",
+		"/Users/lookme/Desktop/Gesellschaftsvertrag.txt",
+		"/Users/lookme/VirtualBox VMs/FreeBSD/FreeBSD.vbox",
+		"/Users/lookme/VirtualBox VMs/FreeBSD/FreeBSD.vbox-prev",
+		"/Users/lookme/Library/Application Support/Sublime Text 3/Installed Packages/Package Control.sublime-package",
+		"/Users/lookme/Downloads/Chillstep Chapters.txt",
+		"/Users/lookme/Entwicklung/de.immoimage.www/immoimage_2016-10-31/old.js",
+		"/Users/lookme/Entwicklung/de.immoimage.www/immoimage_2016-10-31/all.js",
+		"/Users/lookme/Entwicklung/xyz.am1s/start_everything.sh",
+		"/Users/lookme/Entwicklung/de.immoimage.www/immoimage_2016-10-05/Code/city2.js",
+		"/Users/lookme/Entwicklung/de.immoimage.www/immoimage_2016-10-14/clickDarmstadt.js",
+		"/Users/lookme/Documents/Krypto/KeePass2.kdbx",
+		"/Users/lookme/Documents/Krypto/KeePass.kdb",
+		"/Users/lookme/Desktop/nCXmAb/puphpet/config.yaml",
+		"/Users/lookme/Entwicklung/xyz.am1s/shippable.yml",
+		"/Users/lookme/Library/Keyboard Layouts/German (custom).bundle/Contents/Resources/German.keylayout",
+		"/Users/lookme/Downloads/suchauftrag-export.json",
+		"/Users/lookme/Entwicklung/de.immoimage.www/wp-config.php",
+		"/Users/lookme/Entwicklung/xyz.am1s/server/src/database/couch.ts",
+		"/Users/lookme/Entwicklung/de.mediacollective.www.2015/dist/index.html",
+		"/Users/lookme/Entwicklung/de.mediacollective.www.2015/sources/index.html",
+		"/Users/lookme/Desktop/immoimage/Code/immo.prefixed.css",
+		"/Users/lookme/Desktop/immoimage/Code/immo.css",
+		"/Users/lookme/Desktop/immoimage/bewertung_alt.json",
+		"/Users/lookme/Desktop/city2.js",
+		"/Users/lookme/Downloads/online-bewertung-immobilie-export.json",
+		"/Users/lookme/Entwicklung/xyz.am1s/web/dist/index.html",
+		"/Users/lookme/Desktop/sebi_rsa.pub",
+		"/Users/lookme/Entwicklung/de.naju-hessen.rudi_master/doc/api/_konventionen.md",
+		"/Users/lookme/Entwicklung/de.naju-hessen.rudi_master/doc/api/Group.md",
+		"/Users/lookme/Entwicklung/de.naju-hessen.rudi_master/doc/api/Todo.md",
+		"/Users/lookme/Entwicklung/de.naju-hessen.rudi_master/doc/api/Event.md",
+		"/Users/lookme/Entwicklung/de.naju-hessen.rudi_master/doc/api/User.md",
+		"/Users/lookme/Entwicklung/de.naju-hessen.rudi_master/doc/api/example.txt",
+		"/Users/lookme/Entwicklung/de.naju-hessen.rudi_master/doc/db/schema.sql",
+		"/Users/lookme/Entwicklung/de.naju-hessen.rudi_master/doc/_konventionen.md",
+		"/Users/lookme/Entwicklung/de.naju-hessen.rudi_master/doc/api_example.txt",
+		"/Users/lookme/Desktop/api_example.txt",
+		"/Users/lookme/Entwicklung/xyz.am1s/web/tsconfig.json",
+		"/Users/lookme/Documents/NAJU/Design/Logo Neu/logo-new.svg",
+		"/Users/lookme/Entwicklung/xyz.am1s/web/src/app.tsx",
+		"/Users/lookme/Entwicklung/xyz.am1s/web/webpack.config.js",
+		"/Users/lookme/Documents/Krypto/vpn/NAJU Hessen.conf",
+		"/Users/lookme/Desktop/reponsibility.html",
+		"/Users/lookme/Entwicklung/xyz.am1s/dist/main/client/lib.js",
+		"/Users/lookme/.atom/storage/application.json",
+		"/Users/lookme/Entwicklung/foundation.react.typed/typings.json",
+		"/Users/lookme/Downloads/main.tsx"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 172.0,
+		"where_history":
+		[
+			"<current file>",
+			"/Users/lookme/Entwicklung/web/de.naju-hessen.rudi",
+			"/Users/lookme/Desktop/Kanban",
+			"/Users/lookme/Desktop/Kanban_ Successful Evolutionary Change for - Anderson, David J_",
+			"",
+			"/Users/lookme/Desktop/fancybox-for-wordpress",
+			"<current file>",
+			"/Users/lookme/Downloads/You-Dont-Know-JS/up & going/up-n-going",
+			"<open files>",
+			"/Users/lookme/Entwicklung/de.stabugy/nibelungen",
+			"/Users/lookme/Entwicklung/de.stabugy/gymnasial",
+			"<current file>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"'",
+			"cd",
+			"python_",
+			"rudi_Login",
+			"def route",
+			"def get",
+			"arr",
+			"arrow",
+			"def run",
+			"class",
+			"init*rol",
+			"os\\.",
+			"^([Ii]nf)os\\.",
+			"!([Ii]nf)os\\.",
+			"os\\.",
+			"os.",
+			"os.*file",
+			"header",
+			"mcnButtonContentContainer",
+			"button",
+			"butotn",
+			"button",
+			"font-family",
+			"Source San",
+			"arial",
+			"button",
+			"#",
+			"preheader",
+			"<br/>",
+			"|*",
+			"!(\\\\\\*)in",
+			"!\\\\\\*in",
+			"\\*in",
+			"\\*",
+			"[0-9]+\\. ",
+			"siteo",
+			"err",
+			"siteo",
+			"error",
+			"post_ty",
+			"more",
+			"unset",
+			"post_type",
+			"wp_qu",
+			"naju_widgets_init",
+			"Sydney_Clients",
+			"widg",
+			".php",
+			"content.",
+			"NAJU_EventsWidget",
+			"siteorigin-panels-postloop",
+			"SiteOrigin_Panels_Widgets_PostLoop",
+			"siteorigin-panels",
+			" ",
+			"- ",
+			"../sprites/",
+			"/earth.menzel/",
+			"/untitled/",
+			"menzel.earth",
+			"asnync f",
+			"\\n####",
+			"####",
+			"# ",
+			"\\n[1-9]\\. ",
+			"true",
+			"typical y",
+			" typical y",
+			" typical y ",
+			"typical y",
+			"general y",
+			"General y",
+			"Real y ",
+			"real y ",
+			"real y[., ]",
+			"“tol ",
+			" tol ",
+			"[ “]tol ",
+			"[ \"]tol ",
+			" tol ",
+			"Ful ",
+			" ful ",
+			"Actual y",
+			"Usual y",
+			"usual y",
+			"actual y",
+			"al ocate",
+			"( al)[. ]",
+			" al ",
+			"Al iance",
+			" al ",
+			"al ow",
+			"var ",
+			"\\t",
+			"><",
+			"vhd",
+			"►",
+			"let ",
+			"∂",
+			"™",
+			"getCity",
+			"script",
+			"sha512:",
+			"sha512",
+			"= require(\"js-",
+			"=require(\"js-",
+			"=require(\"sha",
+			"modify",
+			"modifyuser",
+			"modify_user",
+			"\\\\\\\\",
+			"\\\\\"",
+			"\\\\/",
+			"\\\\n",
+			"<script",
+			"default",
+			"script",
+			"data-field-wrapper=\"\"",
+			"\t    ",
+			"data-label=",
+			"[data-label=]",
+			"div[data-field-wrapper=\"fld_9964186\"]",
+			"*",
+			"Allergie",
+			".to",
+			"\n",
+			" %",
+			"=",
+			"symbol"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"",
+			"\\\\\\*in",
+			"\\\\\\*",
+			"\\\\",
+			"#### $0",
+			"#### \\1",
+			"#### $1",
+			"#### [0-9]+\\. ",
+			"",
+			"../",
+			"",
+			"../",
+			"/earth.menzel.xmas/",
+			"/earth.menzel/",
+			"earth.menzel",
+			"<br/>\\n\\n####",
+			"<br>\\n\\n####",
+			"\\n\\n####",
+			"#### ",
+			"typically",
+			" typically",
+			"generally",
+			"Generally",
+			"really",
+			" “toll",
+			" toll",
+			" Full",
+			" full",
+			"Actually",
+			"Usually",
+			"usually",
+			"actually",
+			"allocate",
+			"all",
+			"allow",
+			"var ",
+			"\\\\",
+			"\\\"",
+			"\\/",
+			"\\n",
+			"\"",
+			"<br/>",
+			"  ",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/code_completion_baseline.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "LICENSE",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1070,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1070,
+								1070
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/runner.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2851,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								355,
+								355
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 47.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/x86_asm.sublime-build",
+	"project": "asdl.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 306.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
