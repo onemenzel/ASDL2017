@@ -4,8 +4,8 @@ import json
 from random import randint
 
 #########################################
-## START of part that students may change
-from code_completion_2836366 import Code_Completion_Baseline
+# START of part that students may change
+from code_completion import CodeCompletionBaseline
 
 training_dir = "./../training_data/programs_800/"
 query_dir = "./../training_data/programs_200/"
@@ -15,7 +15,7 @@ use_stored_model = False
 
 max_hole_size = 2
 simplify_tokens = True
-## END of part that students may change
+# END of part that students may change
 #########################################
 
 def simplify_token(token):
@@ -58,9 +58,9 @@ def same_tokens(tokens1, tokens2):
     return True
 
 #########################################
-## START of part that students may change
-code_completion = Code_Completion_Baseline()
-## END of part that students may change
+# START of part that students may change
+code_completion = CodeCompletionBaseline()
+# END of part that students may change
 #########################################
 
 # train the network
