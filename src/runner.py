@@ -5,7 +5,7 @@ from random import randint
 
 #########################################
 # START of part that students may change
-from code_completion import CodeCompletionBaseline
+from code_completion_baseline import Code_Completion_Baseline
 
 training_dir = "./../training_data/programs_800/"
 query_dir = "./../training_data/programs_200/"
@@ -54,12 +54,12 @@ def same_tokens(tokens1, tokens2):
     for idx, t1 in enumerate(tokens1):
         t2 = tokens2[idx]
         if t1["type"] != t2["type"] or t1["value"] != t2["value"]:
-            return False  
+            return False
     return True
 
 #########################################
 # START of part that students may change
-code_completion = CodeCompletionBaseline()
+code_completion = Code_Completion_Baseline()
 # END of part that students may change
 #########################################
 

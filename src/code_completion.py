@@ -2,8 +2,11 @@ import tflearn
 import numpy
 import datetime
 
+# TODO reset load restriction
+truncate_token_lists = 70   # int or None
+truncate_before_counting = True
 
-class CodeCompletionBaseline:
+class Code_Completion_Baseline:
 
     def __init__(self):
         self.string_to_number = None
@@ -26,6 +29,10 @@ class CodeCompletionBaseline:
         return vector
 
     def prepare_data(self, token_lists):
+
+        if truncate_before_counting:
+            del token_lists[truncate_token_lists:]
+
         # encode tokens into one-hot vectors
         all_token_strings = set()
         for token_list in token_lists:
@@ -43,6 +50,11 @@ class CodeCompletionBaseline:
         # prepare x,y pairs
         xs = []
         ys = []
+
+        # truncate the token lists for faster debugging
+        if truncate_token_lists and not truncate_before_counting:
+            del token_lists[truncate_token_lists:]
+
         for token_list in token_lists:
             for idx, token in enumerate(token_list):
                 if idx > 0:
@@ -55,11 +67,28 @@ class CodeCompletionBaseline:
         return (xs, ys)
 
     def create_network(self):
-        self.net = tflearn.input_data(shape=[None, len(self.string_to_number)])
-        self.net = tflearn.fully_connected(self.net, 32)
-        self.net = tflearn.fully_connected(self.net, 64)
-        self.net = tflearn.fully_connected(self.net, len(self.string_to_number), activation='softmax')
-        self.net = tflearn.regression(self.net)
+        # TODO try convolutional RNN and LSTM shapes
+        net = tflearn.input_data(shape=[None, len(self.string_to_number)])
+        net = tflearn.reshape(net, (-1, len(self.string_to_number), 1))
+        # self.net = tflearn.fully_connected(self.net, 32)
+        # self.net = tflearn.fully_connected(self.net, 64)
+
+        # get the "good" parts
+        net = tflearn.conv_1d(net, len(self.string_to_number), 3, activation='relu', regularizer="L2")
+        net = tflearn.max_pool_1d(net, 2)
+        net = tflearn.batch_normalization(net)
+        net = tflearn.conv_1d(net, len(self.string_to_number)*2, 3, activation='relu', regularizer="L2")
+        net = tflearn.max_pool_1d(net, 2)
+        net = tflearn.batch_normalization(net)
+
+        # remember the meanings
+        net = tflearn.lstm(net, 64)
+        net = tflearn.dropout(net, 0.5)
+
+        # map to next value
+        net = tflearn.fully_connected(net, len(self.string_to_number)*2, activation='tanh')
+        net = tflearn.fully_connected(net, len(self.string_to_number), activation='softmax')
+        self.net = tflearn.regression(net)
         self.model = tflearn.DNN(self.net)
 
     def load(self, token_lists, model_file):
@@ -68,10 +97,10 @@ class CodeCompletionBaseline:
         self.model.load(model_file)
 
     def train(self, token_lists, model_file):
-        fmt = '%Y-%m-%d-%H-%M-%S'
-        now = datetime.datetime.now().strftime(fmt)
         (xs, ys) = self.prepare_data(token_lists)
         self.create_network()
+        fmt = '%Y-%m-%d_%H-%M-%S'
+        now = datetime.datetime.now().strftime(fmt)
         self.model.fit(xs, ys, n_epoch=1, batch_size=1024, show_metric=True, run_id=now)
         self.model.save(model_file)
 

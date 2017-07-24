@@ -1,3 +1,5 @@
+import datetime
+
 import tflearn
 import numpy
 
@@ -61,7 +63,9 @@ class Code_Completion_Baseline:
     def train(self, token_lists, model_file):
         (xs, ys) = self.prepare_data(token_lists)
         self.create_network()
-        self.model.fit(xs, ys, n_epoch=1, batch_size=1024, show_metric=True)
+        fmt = '%Y-%m-%d_%H-%M-%S'
+        now = datetime.datetime.now().strftime(fmt) + '_baseline'
+        self.model.fit(xs, ys, n_epoch=1, batch_size=1024, show_metric=True, run_id=now)
         self.model.save(model_file)
 
     def query(self, prefix, suffix):
