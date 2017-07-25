@@ -70,9 +70,12 @@ class CodeCompletion:
     def create_network(self):
         # TODO try convolutional RNN and LSTM shapes
         net = tflearn.input_data(shape=[None, len(self.string_to_number)])
-        net = tflearn.reshape(net, (-1, len(self.string_to_number), 1))
+
         # self.net = tflearn.fully_connected(self.net, 32)
         # self.net = tflearn.fully_connected(self.net, 64)
+
+        # usually we need a 3D-Tensor
+        net = tflearn.reshape(net, (-1, len(self.string_to_number), 1))
 
         # get the "good" parts
         net = tflearn.conv_1d(net, 64, 3, activation='relu', regularizer="L2")
@@ -86,10 +89,13 @@ class CodeCompletion:
         # net = tflearn.lstm(net, 64)
         # net = tflearn.dropout(net, 0.5)
 
+        # net = tflearn.simple_rnn(net, len(self.string_to_number) * 2)
+
         # map to next value
-        net = tflearn.fully_connected(net, 96, activation='tanh')
+        net = tflearn.fully_connected(net, 256, activation='tanh')
+        net = tflearn.dropout(net, 0.5)
         net = tflearn.fully_connected(net, len(self.string_to_number), activation='softmax')
-        self.net = tflearn.regression(net)
+        self.net = tflearn.regression(net, optimizer='adam')
         self.model = tflearn.DNN(self.net)
 
     def load(self, token_lists, model_file):
@@ -99,7 +105,7 @@ class CodeCompletion:
 
     def train(self, token_lists, model_file):
         # run_description = input('please enter a description of the network: ')
-        run_description = '2fc-2fc'
+        run_description = '3c-adam'
         (xs, ys) = self.prepare_data(token_lists)
         self.create_network()
         fmt = '%Y-%m-%d_%H-%M-%S'
