@@ -5,7 +5,8 @@ from random import randint
 
 #########################################
 # START of part that students may change
-from code_completion_baseline import Code_Completion_Baseline
+# from code_completion_baseline import Code_Completion_Baseline
+from code_completion import CodeCompletion as Code_Completion_Baseline
 
 training_dir = "./../training_data/programs_800/"
 query_dir = "./../training_data/programs_200/"

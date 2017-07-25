@@ -3,10 +3,11 @@ import numpy
 import datetime
 
 # TODO reset load restriction
-truncate_token_lists = 70   # int or None
+truncate_token_lists = 500   # int or None
 truncate_before_counting = True
 
-class Code_Completion_Baseline:
+
+class CodeCompletion:
 
     def __init__(self):
         self.string_to_number = None
@@ -74,19 +75,19 @@ class Code_Completion_Baseline:
         # self.net = tflearn.fully_connected(self.net, 64)
 
         # get the "good" parts
-        net = tflearn.conv_1d(net, len(self.string_to_number), 3, activation='relu', regularizer="L2")
+        net = tflearn.conv_1d(net, 64, 3, activation='relu', regularizer="L2")
         net = tflearn.max_pool_1d(net, 2)
         net = tflearn.batch_normalization(net)
-        net = tflearn.conv_1d(net, len(self.string_to_number)*2, 3, activation='relu', regularizer="L2")
+        net = tflearn.conv_1d(net, 128, 3, activation='relu', regularizer="L2")
         net = tflearn.max_pool_1d(net, 2)
         net = tflearn.batch_normalization(net)
 
         # remember the meanings
-        net = tflearn.lstm(net, 64)
-        net = tflearn.dropout(net, 0.5)
+        # net = tflearn.lstm(net, 64)
+        # net = tflearn.dropout(net, 0.5)
 
         # map to next value
-        net = tflearn.fully_connected(net, len(self.string_to_number)*2, activation='tanh')
+        net = tflearn.fully_connected(net, 96, activation='tanh')
         net = tflearn.fully_connected(net, len(self.string_to_number), activation='softmax')
         self.net = tflearn.regression(net)
         self.model = tflearn.DNN(self.net)
@@ -97,11 +98,14 @@ class Code_Completion_Baseline:
         self.model.load(model_file)
 
     def train(self, token_lists, model_file):
+        # run_description = input('please enter a description of the network: ')
+        run_description = '2fc-2fc'
         (xs, ys) = self.prepare_data(token_lists)
         self.create_network()
         fmt = '%Y-%m-%d_%H-%M-%S'
         now = datetime.datetime.now().strftime(fmt)
-        self.model.fit(xs, ys, n_epoch=1, batch_size=1024, show_metric=True, run_id=now)
+        run_name = now + '_' + run_description
+        self.model.fit(xs, ys, n_epoch=1, batch_size=1024, show_metric=True, run_id=run_name)
         self.model.save(model_file)
 
     def query(self, prefix, suffix):
